@@ -1,0 +1,171 @@
+{
+  "version": 1,
+  "login": "salfishlte",
+  "seed": "#E17E29",
+  "seedFromAvatar": false,
+  "scheme": "tonalSpot",
+  "motion": true,
+  "iconFill": true,
+  "order": [
+    "hero",
+    "socials",
+    "about",
+    "stack",
+    "projects",
+    "stats",
+    "streak",
+    "wave",
+    "buttons"
+  ],
+  "hidden": [
+    "socials",
+    "streak",
+    "projects",
+    "stats"
+  ],
+  "hero": {
+    "greeting": "hi, I'm",
+    "name": "𝐬𝐚𝐥𝐟𝐢𝐬𝐡𝐥𝐭𝐞",
+    "subtitle": "i build some useful tools.",
+    "typing": false,
+    "avatarShape": "pill",
+    "chips": [
+      {
+        "icon": "public",
+        "label": "ukraine"
+      },
+      {
+        "icon": "desktop_windows",
+        "label": "vibecoder"
+      }
+    ]
+  },
+  "about": {
+    "title": "about me",
+    "items": [
+      {
+        "icon": "person",
+        "label": "tech tinkerer"
+      },
+      {
+        "icon": "code",
+        "label": "vibecode smth"
+      },
+      {
+        "icon": "terminal",
+        "label": "open-source fan"
+      }
+    ]
+  },
+  "stack": {
+    "title": "tech stack",
+    "groups": [
+      {
+        "title": "main",
+        "items": [
+          {
+            "icon": "brand:python",
+            "label": "python"
+          },
+          {
+            "icon": "brand:html5",
+            "label": "html5/css3"
+          },
+          {
+            "icon": "brand:arduino",
+            "label": "arduino"
+          }
+        ]
+      },
+      {
+        "title": "tools",
+        "items": [
+          {
+            "icon": "brand:git",
+            "label": "git"
+          },
+          {
+            "icon": "brand:figma",
+            "label": "figma"
+          },
+          {
+            "icon": "brand:devdotto",
+            "label": "vs code"
+          },
+          {
+            "icon": "brand:platformio",
+            "label": "platformIO"
+          }
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "source": "manual",
+    "repos": [
+      "wled-cli",
+      "Silicon"
+    ],
+    "overrides": {
+      "Silicon": {
+        "icon": "widgets",
+        "shape": "cookie"
+      },
+      "wled-cli": {
+        "shape": "cookie"
+      }
+    },
+    "empty": "No description yet.",
+    "fork": "Fork"
+  },
+  "stats": {
+    "title": "GitHub activity",
+    "stars": "Stars earned",
+    "contributions": "Contributions this year",
+    "repos": "Public repos",
+    "followers": "Followers",
+    "calendar": "Last 21 days",
+    "weekdays": "SMTWTFS",
+    "languages": "Languages across my repositories",
+    "showLanguages": false
+  },
+  "streak": {
+    "title": "Streak",
+    "current": "Current streak",
+    "longest": "Longest this year",
+    "days": "days"
+  },
+  "socials": {
+    "items": [
+      {
+        "icon": "brand:telegram",
+        "url": "https://t.me/salfishlte"
+      },
+      {
+        "icon": "brand:discord",
+        "url": "https://discord.com/"
+      }
+    ],
+    "variant": "chip",
+    "fill": "tonal",
+    "card": true,
+    "shape": "soft"
+  },
+  "buttons": {
+    "items": [
+      {
+        "icon": "book_2",
+        "label": "all repositories",
+        "url": "",
+        "style": "filled"
+      },
+      {
+        "icon": "brand:discord",
+        "label": "discord",
+        "url": "https://discord.com/users/1451896501260386385",
+        "style": "tonal"
+      }
+    ],
+    "card": true
+  }
+}
